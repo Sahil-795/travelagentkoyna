@@ -1,0 +1,105 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(to right, #fdfbfb, #ebedee);
+    color: #333;
+}
+
+nav {
+    padding: 10px;
+    background-color: black;
+    padding-left: 985px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+
+
+.header {
+    background: #ffcc80;
+    color: black;
+    padding: 20px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.header p {
+    font-size: 1rem;
+}
+
+.content {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pet {
+    background: #fff3e0;
+    border: 2px solid #ff7043;
+    border-radius: 10px;
+    width: 220px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.pet:hover {
+    transform: scale(1.05);
+}
+
+.pet img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.pet h2 {
+    color: #ff7043;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.pet a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.pet p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.footer {
+    background: #ff7043;
+    color: white;
+    padding: 10px;
+    font-size: 0.9rem;
+}
